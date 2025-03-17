@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 const Home = () => {
   const nav = useNavigate();
   return (
-    <view>
+    <view className="contain">
       <text>Hello world!</text>
       <text bindtap={() => nav("/")} className="Title ">
         App
