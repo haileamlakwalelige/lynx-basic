@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with fast scrolling.",
+    "price": 19.99,
+    "category": "Electronics",
+    "image": "https://img.freepik.com/free-photo/purple-computer-mouse_1260-11.jpg?uid=R182301171&ga=GA1.1.41874992.1741863587&semt=ais_hybrid",
+    "stock": 120
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with blue switches.",
+    "price": 49.99,
+    "category": "Electronics",
+    "image": "https://img.freepik.com/free-psd/graphic-design-template_23-2150868721.jpg?uid=R182301171&ga=GA1.1.41874992.1741863587&semt=ais_hybrid",
+    "stock": 80
+  },
+  {
+    "id": 3,
+    "name": "Gaming Headset",
+    "description": "Noise-canceling gaming headset with surround sound.",
+    "price": 59.99,
+    "category": "Electronics",
+    "image": "https://media.istockphoto.com/id/1182209797/photo/close-view-of-wireless-black-gaming-headphones-with-microphone-isolated-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=34iyIQfsQ2U99uBNZgA0w_x29RyZxwoEfebV8BteDLo=",
+    "stock": 60
+  },
+  {
+    "id": 4,
+    "name": "USB-C Hub",
+    "description": "5-in-1 USB-C hub with HDMI and SD card reader.",
+    "price": 34.99,
+    "category": "Accessories",
+    "image": "https://img.freepik.com/free-photo/black-usb-flash-drive-mockup-technology-data-storage-device_53876-97317.jpg?uid=R182301171&ga=GA1.1.41874992.1741863587&semt=ais_hybrid",
+    "stock": 150
+  },
+  {
+    "id": 5,
+    "name": "Portable SSD",
+    "description": "1TB external SSD with high-speed transfer.",
+    "price": 89.99,
+    "category": "Storage",
+    "image": "https://images.unsplash.com/photo-1719937050792-a6a15d899281?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFBvcnRhYmxlJTIwU1NEfGVufDB8fDB8fHww",
+    "stock": 90
+  },
+  {
+    "id": 6,
+    "name": "Smartphone Stand",
+    "description": "Adjustable aluminum stand for phones and tablets.",
+    "price": 14.99,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1532014834043-c6dcba19ba50?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U21hcnRwaG9uZSUyMFN0YW5kfGVufDB8fDB8fHww",
+    "stock": 200
+  },
+  {
+    "id": 7,
+    "name": "Bluetooth Speaker",
+    "description": "Waterproof portable speaker with deep bass.",
+    "price": 39.99,
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Qmx1ZXRvb3RoJTIwU3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": 100
+  },
+  {
+    "id": 8,
+    "name": "Smartwatch",
+    "description": "Fitness tracker with heart rate monitor and GPS.",
+    "price": 79.99,
+    "category": "Wearables",
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U21hcnR3YXRjaHxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": 50
+  },
+  {
+    "id": 9,
+    "name": "Laptop Stand",
+    "description": "Ergonomic adjustable stand for better posture.",
+    "price": 25.99,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/flagged/photo-1576697011479-349e2a52bdf6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGFwdG9wJTIwU3RhbmR8ZW58MHx8MHx8fDA%3D",
+    "stock": 180
+  },
+  {
+    "id": 10,
+    "name": "Wireless Charger",
+    "description": "Fast-charging pad compatible with all Qi devices.",
+    "price": 22.99,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1615526675221-e763c4ec84f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8V2lyZWxlc3MlMjBDaGFyZ2VyfGVufDB8fDB8fHww",
+    "stock": 140
+  },
+  {
+    "id": 11,
+    "name": "Noise-Canceling Earbuds",
+    "description": "True wireless earbuds with active noise cancellation.",
+    "price": 99.99,
+    "category": "Audio",
+    "image": "https://plus.unsplash.com/premium_photo-1726862919049-a2bdd91622f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Tm9pc2UlMjBDYW5jZWxpbmclMjBFYXJidWRzJTIyfGVufDB8fDB8fHww",
+    "stock": 70
+  },
+  {
+    "id": 12,
+    "name": "LED Desk Lamp",
+    "description": "Dimmable LED lamp with touch control.",
+    "price": 29.99,
+    "category": "Home Office",
+    "image": "https://plus.unsplash.com/premium_photo-1705169612225-c7f9e87430f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TEVEJTIwRGVzayUyMExhbXB8ZW58MHx8MHx8fDA%3D",
+    "stock": 90
+  },
+  {
+    "id": 13,
+    "name": "Action Camera",
+    "description": "4K waterproof action camera with WiFi support.",
+    "price": 119.99,
+    "category": "Photography",
+    "image": "https://images.unsplash.com/photo-1488926445368-4a98469fbe38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QWN0aW9uJTIwQ2FtZXJhfGVufDB8fDB8fHww",
+    "stock": 40
+  },
+  {
+    "id": 14,
+    "name": "Smart Light Bulb",
+    "description": "WiFi-enabled LED bulb with adjustable colors.",
+    "price": 15.99,
+    "category": "Home Automation",
+    "image": "https://plus.unsplash.com/premium_photo-1677234147181-2510b2c1ea75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U21hcnQlMjBMaWdodCUyMEJ1bGJ8ZW58MHx8MHx8fDA%3D",
+    "stock": 300
+  },
+  {
+    "id": 15,
+    "name": "Graphic Tablet",
+    "description": "Drawing tablet with pressure-sensitive pen.",
+    "price": 69.99,
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1513712230855-e5915b9d5ced?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3JhcGhpYyUyMFRhYmxldHxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": 60
+  },
+  {
+    "id": 16,
+    "name": "External Hard Drive",
+    "description": "2TB external hard drive for backups and storage.",
+    "price": 109.99,
+    "category": "Storage",
+    "image": "https://plus.unsplash.com/premium_photo-1726869660745-9f60cdf6588b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RXh0ZXJuYWwlMjBIYXJkJTIwRHJpdmV8ZW58MHx8MHx8fDA%3D",
+    "stock": 75
+  },
+  {
+    "id": 17,
+    "name": "HD Webcam",
+    "description": "1080p webcam with built-in microphone for video calls.",
+    "price": 45.99,
+    "category": "Electronics",
+    "image": "https://plus.unsplash.com/premium_photo-1729580056441-6ab34fe19d3d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SEQlMjBXZWJjYW18ZW58MHx8MHx8fDA%3D",
+    "stock": 110
+  },
+  {
+    "id": 18,
+    "name": "Wireless Keyboard",
+    "description": "Ultra-thin Bluetooth keyboard for laptops and tablets.",
+    "price": 32.99,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1598428452014-264f8ff1b174?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBLZXlib2FyZHxlbnwwfHwwfHx8MA%3D%3D",
+    "stock": 90
+  },
+  {
+    "id": 19,
+    "name": "Monitor Stand",
+    "description": "Adjustable riser for computer monitors and laptops.",
+    "price": 21.99,
+    "category": "Home Office",
+    "image": "https://plus.unsplash.com/premium_photo-1683326528070-4ebec9188ae1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TW9uaXRvciUyMFN0YW5kfGVufDB8fDB8fHww",
+    "stock": 150
+  },
+  {
+    "id": 20,
+    "name": "Power Bank",
+    "description": "20,000mAh power bank with fast charging.",
+    "price": 39.99,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1594843665794-446ce915d840?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG93ZXIlMjBCYW5rJTIyfGVufDB8fDB8fHww",
+    "stock": 130
+  },
+  {
+    "id": 21,
+    "name": "Ring Light",
+    "description": "Adjustable LED ring light for video recording.",
+    "price": 27.99,
+    "category": "Photography",
+    "image": "https://plus.unsplash.com/premium_photo-1684611913202-479ff05703da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmluZyUyMExpZ2h0fGVufDB8fDB8fHww",
+    "stock": 100
+  },
+  {
+    "id": 22,
+    "name": "Gaming Chair",
+    "description": "Ergonomic gaming chair with lumbar support.",
+    "price": 159.99,
+    "category": "Furniture",
+    "image": "https://plus.unsplash.com/premium_photo-1678112179122-50605ebc5697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2FtaW5nJTIwQ2hhaXJ8ZW58MHx8MHx8fDA%3D",
+    "stock": 30
+  },
+  {
+    "id": 23,
+    "name": "VR Headset",
+    "description": "Virtual reality headset compatible with PC and mobile.",
+    "price": 249.99,
+    "category": "Gaming",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VlIlMjBIZWFkc2V0fGVufDB8fDB8fHww",
+    "stock": 25
+  },
+  {
+    "id": 24,
+    "name": "Portable Projector",
+    "description": "Mini HD projector for home entertainment.",
+    "price": 139.99,
+    "category": "Home Entertainment",
+    "image": "https://images.unsplash.com/photo-1638154320403-1bc308a01398?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG9ydGFibGUlMjBQcm9qZWN0b3J8ZW58MHx8MHx8fDA%3D",
+    "stock": 45
+  }
+]
