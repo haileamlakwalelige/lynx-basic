@@ -1,44 +1,34 @@
 import { useCallback, useEffect, useState } from "@lynx-js/react";
+import data from "./constant/data.json";
 
 import "./App.css";
-import lynxLogo from "./assets/lynx-logo.png";
-import reactLynxLogo from "./assets/react-logo.png";
 import { useNavigate } from "react-router";
 
 export function App() {
-  const [alterLogo, setAlterLogo] = useState(false);
+  console.log(data);
   const nav = useNavigate();
-
-  const onTap = useCallback(() => {
-    "background only";
-    setAlterLogo(!alterLogo);
-  }, [alterLogo]);
-
   return (
-    <view>
-      <view className="Background" />
-      <view className="App">
-        <view className="Banner">
-          <view className="Logo" bindtap={onTap}>
-            {alterLogo ? (
-              <image src={reactLynxLogo} className="Logo--react" />
-            ) : (
-              <image src={lynxLogo} className="Logo--lynx" />
-            )}
-          </view>
-          <text className="Title">React</text>
-          <text className="Subtitle">on Lynx</text>
-        </view>
-        <view className="flex flex-col gap-3 bg-blue text-orange"> 
-          <text bindtap={() => nav("/home")} className="Title">
-            Home
-          </text>
-          <text bindtap={() => nav("/product")} className="Title">
-            Product
-          </text>
-        </view>
-        <view style={{ flex: 1 }}></view>
-      </view>
-    </view>
+    <scroll-view className="body">
+      <list
+        className="list"
+        list-type="waterfall"
+        column-count={3}
+        scroll-orientation="vertical"
+        custom-list-name="list-container"
+      >
+        {data.map((item) => (
+          <list-item
+            bindtap={() => nav("/product/" + item.id)}
+            item-key={"" + item.id}
+            key={"" + item.id}
+            className="single-card"
+          >
+            <image src={item.image} className="listed_image"/>
+            <text className="text">{item.name}</text>
+            <text className="white">${item.price}</text>
+          </list-item>
+        ))}
+      </list>
+    </scroll-view>
   );
 }
