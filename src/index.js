@@ -5,13 +5,14 @@ import { MemoryRouter, Route, Routes } from 'react-router'
 import Home from './screens/Home.jsx'
 import Product from './screens/Product.jsx'
 import 'tailwindcss/utilities.css';
+import './App.css';
 
 root.render(
   <MemoryRouter>
     <Routes>
     <Route path='/' element={<App />} />
     <Route path='/home' element={<Home />} />
-    <Route path='/product' element={<Product />} />
+    <Route path='/product/:id' element={<Product />} />
     </Routes>
   </MemoryRouter>
 )
